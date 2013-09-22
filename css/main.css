@@ -97,6 +97,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	background-color: #222;
+	padding: 1.625em;
+}
+
+.g-page: {margin:auto;}
+
 /* Define Accordion box */
 .accordion {
     margin: 20px;
