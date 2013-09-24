@@ -134,7 +134,7 @@ body {
     display: none;
 }
 
-.accordion section a {
+.accordion section a.slidetrigger {
     display: block;
 }
 
