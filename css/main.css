@@ -117,7 +117,6 @@ body {
 
 #accordion section {
     background-color: #427fed;
-    cursor: pointer;
     padding: 0.3125em 1.25em;
     margin: 1.25em 0;
     -moz-border-radius: 3px;
@@ -153,6 +152,7 @@ h2.slidetitle {
 #accordion section:target {
     background-color: #fff;
     padding: 1em;
+
 }
 
 #accordion section:target div {
@@ -161,6 +161,7 @@ h2.slidetitle {
 
 #accordion section:target h2.slidetitle a {
     color: #427fed;
+    cursor: default;
 }
 
 aside p {
@@ -186,7 +187,20 @@ a.bigbutton {
     border-radius: 3px;
 }
 
+.accountnumber {
+    font-size: 2em;
+    font-weight: bold;
+}
 
+footer {
+    font-size: 0.635em;
+    color: #666666;
+}
+
+footer a {color: #666666;}
+
+footer p:nth-child(1) {float: left;}
+footer p:nth-child(2) {float: right;}
 
 
 /* ==========================================================================
