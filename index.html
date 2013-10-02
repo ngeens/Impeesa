@@ -54,38 +54,46 @@
 			<section id="blijf-op-de-hoogte">
 				<h2 class="slidetitle"><a href="#blijf-op-de-hoogte">Blijf op de hoogte</a></h2>
 				<div>
-					<p>Laat hier op je gegevens achter als je op de hoogte wil blijven van onze activitieten. We sturen je dan een af en toe mailtje, telkens er wat op til is dat oudscouts aanbelangt... </p>
+					<p>Laat hier op je gegevens achter als je op de hoogte wil blijven van onze activiteiten. We sturen je dan een af en toe mailtje, telkens er wat op til is dat oudscouts aanbelangt... </p>
+
+					<aside>
+						<p>Wie reeds was ingeschreven op de vorige site hoeft dat niet opnieuw te doen.</p>
+					</aside>
+					<aside>
+						<p>Je inschrijven op deze mailinglist staat NIET gelijk met een volwaardig (betalend) lidmaatschap.</p>
+					</aside>
 
 					<!-- Begin MailChimp Signup Form -->
-					<div id="opt-in">
+					<div id="optin">
 						<form action="http://parsival.us7.list-manage.com/subscribe/post?u=ecb739b64162b10e9ce286ee2&amp;id=1953d722c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							
-							<input type="email" value="Jouw emailadres" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="email" placeholder="Vul hier je e-mailadres in" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 
-							<input type="text" value="Voornaam" name="FIRSTNAME" class="firstname" id="mce-FIRSTNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="text" placeholder="Voornaam" value="" name="FIRSTNAME" class="firstname" id="mce-FIRSTNAME">
 
-							<input type="text" value="Achternaam" name="LASTNAME" class="lastname" id="mce-LASTNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="text" placeholder="Achternaam" value="" name="LASTNAME" class="lastname" id="mce-LASTNAME">
 
-							<input type="text" value="Adjectief" name="PRETOTEM" class="pretotem" id="mce-PRETOTEM" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="text" placeholder="Adjectief" value="" name="PRETOTEM" class="pretotem" id="mce-PRETOTEM">
 
-							<input type="text" value="Totem" name="TOTEM" class="totem" id="mce-TOTEM" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="text" placeholder="Totem" value="" name="TOTEM" class="totem" id="mce-TOTEM">
 
-							<input type="text" value="Bijnaam" name="NICKNAME" class="nickname" id="mce-NICKNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+							<input type="text" placeholder="Bijnaam, roepnaam, alias..." value="" name="NICKNAME" class="nickname" id="mce-NICKNAME">
 
-							<label for="mce-BIRTHDATE-month">Geboortedatum </label>
-							<div class="datefield">
+							<input type="text" placeholder="Telefoon bv. 0485123456" value="" name="PHONE" class="phone" id="mce-PHONE">
+
+							<label for="mce-BIRTHDATE-month" class="birthdate">Geboortedatum </label>
+							<span class="datefield">
 								<span class="subfield dayfield">
-									<input type="text" pattern="[0-9]*" value="Dag" size="2" maxlength="2" name="BIRTHDATE[day]" id="mce-BIRTHDATE-day" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+									<input type="text" pattern="[0-9]*" placeholder="dag" value="" size="2" maxlength="2" name="BIRTHDATE[day]" id="mce-BIRTHDATE-day">
 								</span> /
 								<span class="subfield monthfield">
-									<input type="text" pattern="[0-9]*" value="Maand" size="2" maxlength="2" name="BIRTHDATE[month]" id="mce-BIRTHDATE-month" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+									<input type="text" pattern="[0-9]*" placeholder="maand" value="" size="2" maxlength="2" name="BIRTHDATE[month]" id="mce-BIRTHDATE-month">
 								</span> / 
 								<span class="subfield yearfield">
-									<input type="text" pattern="[0-9]*" value="Jaar" size="4" maxlength="4" name="BIRTHDATE[year]" id="mce-BIRTHDATE-year" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+									<input type="text" pattern="[0-9]*" placeholder="jaar" value="" size="4" maxlength="4" name="BIRTHDATE[year]" id="mce-BIRTHDATE-year">
 								</span>
-						        <span class="small-meta nowrap">( dd / mm / yyyy )</span>
-								<div class="fake-date"><input type="hidden" class=" date" id="BIRTHDATE-fake-date" value=""></div>
-							</div>
+						        <div class="fake-date"><input type="hidden" class=" date" id="BIRTHDATE-fake-date" value=""></div>
+							</span>
 
 							<select name="LASTYEAR" class="lastyear" id="mce-LASTYEAR">
 								<option value="--">Laatste scoutsjaar (jaarthema, kampplaats, kampthema)</option>
@@ -136,20 +144,17 @@
 								<div class="response" id="mce-success-response" style="display:none"></div>
 							</div>	
 
-							<div class="clear">
+							<p><div class="clear">
 								<input type="submit" value="Hou mij op de hoogte!" name="subscribe" id="mc-embedded-subscribe" class="button">
-							</div>
+							</div></p>
 
 						</form>
 					</div>
 
 					<!--End mc_embed_signup-->
-					
+
 					<aside>
-						<p>Wie reeds was ingeschreven op de vorige site hoeft dat niet opnieuw te doen.</p>
-					</aside>
-					<aside>
-						<p>Je inschrijven op deze mailinglist staat NIET gelijk met een volwaardig (betalend) lidmaatschap.</p>
+						<p>Je ontvangt na het intekenen een e-mail met een link om je e-mail adres te bevestigen...</p>
 					</aside>
 				</div>
 			</section>

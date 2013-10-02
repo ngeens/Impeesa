@@ -174,7 +174,36 @@ aside p {
     border-radius: 3px;
 }
 
-a.bigbutton {
+#optin form input {
+    padding: 0.625em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0.3123em 0;
+    border: 1px solid #ccc;
+}
+
+#optin input.email,
+#optin input.firstname,
+#optin input.lastname,
+#optin input.pretotem,
+#optin input.totem,
+#optin input.nickname, 
+#optin input.phone {
+    width: 95%;
+    display: block;
+}
+
+#optin label.birthdate {display: inline;}
+
+#optin select {
+    padding: 0.625em;
+    border: 1px solid red;
+}
+
+
+a.bigbutton, input[type="submit"] {
     background-color: #DD4B39;
     text-decoration: none;
     font-weight: bold;
