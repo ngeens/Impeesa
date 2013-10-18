@@ -44,7 +44,7 @@
 
 		<div id="accordion">
 			<section id="activiteiten-kalender">
-				<h2 class="slidetitle"><a href="#activiteiten-kalender">Activiteiten-kalender</a></h2>
+				<h2 class="slidetitle"><a href="#activiteiten-kalender" onclick="_gaq.push(['_trackPageview' ,'#activiteiten-kalender']);">Activiteiten-kalender</a></h2>
 				<div>
 					<p>Van een gezellig afspraak op de opendeurdag tot een volwaardig kamp met alles erop en eraan... oudscouts Parsival zit niet stil. </p>
 
@@ -67,13 +67,13 @@
 					</ul>
  -->
 					<aside>
-						<p>Alle activiteiten hebben een vrijblijvend karakter (er is dus geen enkele verplichting). Voor de activiteiten die we zelf organiseren (weekends, kamp, e.d.) vragen we wel een <a href="#lidmaatschap">volwaardig lidmaatschap</a>.  Maar je zal eveneens dingen terugvinden die voor iedereen bedoeld zijn (vb. de jaarlijkse Parsival-opendeurdag)</p>
+						<p>Alle activiteiten hebben een vrijblijvend karakter (er is dus geen enkele verplichting). Voor de activiteiten die we zelf organiseren (weekends, kamp, e.d.) vragen we wel een <a href="#lidmaatschap" onclick="_gaq.push(['_trackPageview' ,'#lidmaatschap']);">volwaardig lidmaatschap</a>.  Maar je zal eveneens dingen terugvinden die voor iedereen bedoeld zijn (vb. de jaarlijkse Parsival-opendeurdag)</p>
 					</aside>
 				</div>
 			</section>
 
 			<section id="blijf-op-de-hoogte">
-				<h2 class="slidetitle"><a href="#blijf-op-de-hoogte">Blijf op de hoogte</a></h2>
+				<h2 class="slidetitle"><a href="#blijf-op-de-hoogte"  onclick="_gaq.push(['_trackPageview' ,'#blijf-op-de-hoogte']);">Blijf op de hoogte</a></h2>
 				<div>
 					<p>Laat hier op je gegevens achter als je op de hoogte wil blijven van onze activiteiten. We sturen je dan een af en toe mailtje, telkens er wat op til is dat oudscouts aanbelangt... </p>
 
@@ -166,7 +166,7 @@
 							</div>	
 
 							<p><div class="clear">
-								<input type="submit" value="Hou mij op de hoogte!" name="subscribe" id="mc-embedded-subscribe" class="button">
+								<input type="submit" value="Hou mij op de hoogte!" name="subscribe" id="mc-embedded-subscribe" class="button"  onclick="_gaq.push(['_trackPageview' ,'newsletter-subscription']);">
 							</div></p>
 
 						</form>
@@ -181,7 +181,7 @@
 			</section>
 
 			<section id="lidmaatschap">
-				<h2 class="slidetitle"><a href="#lidmaatschap">Lid worden</a></h2>
+				<h2 class="slidetitle"><a href="#lidmaatschap" onclick="_gaq.push(['_trackPageview' ,'#lidmaatschap']);">Lid worden</a></h2>
 				<div>
 					<h3>Waarom?</h3>
 					<ul>
@@ -218,7 +218,7 @@
 			</section>
 
 			<section id="over-oudscouts-parsival">
-				<h2 class="slidetitle"><a href="#over-oudscouts-parsival">Meer over Oudscouts Parsival</a></h2>
+				<h2 class="slidetitle"><a href="#over-oudscouts-parsival" onclick="_gaq.push(['_trackPageview' ,'#over-oudscouts-parsival']);">Meer over Oudscouts Parsival</a></h2>
 				<div>
 					<p>Oudscouts Parsival is de oudscoutswerking van Scouts Parsival.  We proberen regelmatig te informeren over alles wat oud-Parsivalianen en hun aanverwanten aanbelangt.  Daarnaast organiseren we regelmatig eigen aktiviteiten,  gewoon... voor het contact, voor de fun, voor wie dat wil.   </p>
 					
@@ -232,13 +232,13 @@
 					</ul>
 					<p><strong>Echter niet vergeten:</strong> we kunnen steevast rekenen op een solide achterban, de harde kern zoals dat heet, zonder dewelke vele activiteiten nooit tot stand zouden komen.</p>
 					<aside>
-						<p>Heb je zelf een suggestie, opmerking, een drang om wel eens helpen hier of daar... <a href="#contact">geef gerust een seintje</a>.  We horen dat graag!</p>
+						<p>Heb je zelf een suggestie, opmerking, een drang om wel eens helpen hier of daar... <a href="#contact" onclick="_gaq.push(['_trackPageview' ,'#contact']);">geef gerust een seintje</a>.  We horen dat graag!</p>
 					</aside>
 				</div>
 			</section>
 			
 			<section id="contact">
-				<h2 class="slidetitle"><a href="#contact">Contacteer ons</a></h2>
+				<h2 class="slidetitle"><a href="#contact" onclick="_gaq.push(['_trackPageview' ,'#contact']);">Contacteer ons</a></h2>
 				<div>
 					<ul>
 						<li>door ons eenvoudigweg aan te spreken, ergens te velde</li>
@@ -272,6 +272,7 @@
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		  ga('_setAllowAnchor', true);
 		  ga('create', 'UA-44590417-1', 'parsival.be');
 		  ga('send', 'pageview');
 
