@@ -221,6 +221,10 @@ a.bigbutton, input[type="submit"] {
     font-weight: bold;
 }
 
+li.past a {color: #ccc;}
+li.present a {font-weight:bold; color:#DD4B39;}
+li.future a {}
+
 footer {
     font-size: 0.635em;
     color: #666666;
