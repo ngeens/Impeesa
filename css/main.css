@@ -108,7 +108,7 @@ body {
 }
 
 /* Define Accordion box */
-#accordion {
+#accordion, #header {
     overflow: hidden;
     max-width: 40em;
     margin: auto;
